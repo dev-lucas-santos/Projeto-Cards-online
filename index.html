@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cartas Online i.a</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+<a class="botao-do-whatsapp" href="Http://Wa.me/55519999999?text=ola" target="_blank"><img src="src/imagem/1_atendimento_por_whatsapp.png"alt="botao whatsapp">
+
+</a>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body style="background-image: url(src/imagens/fundo-konoha.jpg);">
+
+    <header class="cabecalho">
+      <img class="logo"  src="./src/imagem/logo cartas.png" alt="Logo IA" />
+    </header>
+    <main class="container">
+      <h1 class="produtos">Produtos</h1>
+      <div class="filtros">
+        <div class="categorias-cartas">
+          <label for="categoria">Categoria</label>
+          <select id="categoria" class="categoria">
+            <option value=""><strong>Selecione uma carta</strong></option>
+            <option value="comum">Comum</option>
+            <option value="rara">Rara</option>
+            <option value="épica">Épica</option>
+             <option value="Gold">Gold</option>
+          </select>
+        </div>
+        <div class="preco-cartas">
+          <label for="preco">Preço máximo (R$)</label>
+          <input type="text" id="preco" class="preco" placeholder="Ex: 100" />
+        </div>
+        <button class="btn-filtrar">Aplicar filtros</button>
+      </div>
+      <ul class="cartas">
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="./src/imagem/carta dupla.png" alt="carta Sasuke e Naruto" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Sasuke e Naruto</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 3.000,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a Carta Sasuke e Naruto!" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Rara" data-preco="4000">
+          <img src="./src/imagem/carta itachi.jpg" alt="Carta Itachi Uchiha" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Itachi Uchiha</h2>
+            <span class="categoria">Categoria: Rara</span>
+            <span class="preco">R$ 4.000,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Itachi Uchiha" class="btn-comprar" target="_blank">Comprar</a>
+          </div
+        </li>
+
+        <li class="carta" data-categoria="Épica" data-preco="800">
+          <img src="./src/imagem/carta madara.jpg" alt="Carta Madara uchiha" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Madara Uchiha</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 1.800,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Madara Uchiha" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Rara" data-preco="1500">
+          <img src="./src/imagem/carta naruto.jpg" alt="Carta Naruto" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Naruto</h2>
+            <span class="categoria">Categoria: Rara</span>
+            <span class="preco">R$ 1.500,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Naruto" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Comum" data-preco="600">
+          <img src="./src/imagem/carta sakura.jpg" alt="Carta Sakura" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Sakura</h2>
+            <span class="categoria">Categoria: Comum</span>
+            <span class="preco">R$ 900,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Sakura" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Comum" data-preco="400">
+          <img src="./src/imagem/carta sasuke.jpg" alt="Carta Sasuke Uchiha" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Sasuke Uchiha</h2>
+            <span class="categoria">Categoria: Comum</span>
+            <span class="preco">R$ 2.000,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Sasuke Uchiha" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+<!-- fazer alteraçao no nome , valor, categoria e alterar as cartas  -->
+
+        <li class="carta" data-categoria="Comum" data-preco="1500">
+          <img src="./src/imagem/carta kakashi.jpg" alt="Carta Kakashi" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Kakashi</h2>
+            <span class="categoria">Categoria: Comum</span>
+            <span class="preco">R$ 1.200,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Kakashi" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+        
+        <li class="carta" data-categoria="Rara" data-preco="1500">
+          <img src="./src/imagem/carta hinata.jpg" alt="Carta hinata" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Hinata</h2>
+            <span class="categoria">Categoria: Rara</span>
+            <span class="preco">R$ 1.500,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Hinata" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Épica" data-preco="1500">
+          <img src="./src/imagem/carta hashirama.jpg" alt="Carta Hashirama" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Hashirama</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 1.900,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Hashirama" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        
+        <li class="carta" data-categoria="Gold" data-preco="1500">
+          <img src="./src/imagem/carta Naruto and kurama .png" alt="Carta Naruto and Kurama" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Naruto and Kurama</h2>
+            <span class="categoria">Categoria: Gold</span>
+            <span class="preco">R$ 5.000,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Naruto and Kurama Gold" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Épica" data-preco="1500">
+          <img src="./src/imagem/carta pain.jpg" alt="Carta Pain" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Pain</h2>
+            <span class="categoria">Categoria:Épica</span>
+            <span class="preco">R$ 1.900,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Pain" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Rara" data-preco="1500">
+          <img src="./src/imagem/carta tobirama.jpg" alt="Carta Tobirama" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Tobirama</h2>
+            <span class="categoria">Categoria: Rara</span>
+            <span class="preco">R$ 2.500,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta tobirama" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Épica" data-preco="1500">
+          <img src="./src/imagem/carta naruto sabio.jpg" alt="Carta Naruto sabio" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Naruto Sabio</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 1.800,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Naruto sabio" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <footer class="rodape">@2025 / dev-lucas-santos </footer>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
