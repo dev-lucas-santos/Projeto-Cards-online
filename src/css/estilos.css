@@ -189,6 +189,18 @@ html {
     transition: all 0.3s ease-in-out;
 }
 
+.fa-whatsapp {
+    color:rgb(32, 131, 2);
+    font-size: 80px;
+	display: inline;
+	position: fixed;
+	left: 10px;
+}
+
+.fa-whatsapp:hover {
+    color: rgb(82, 237, 5);
+}
+
 @media (max-width: 450px) {
 	.cabecalho{display: inline-block ;}
 	.logo {display: flex;}
